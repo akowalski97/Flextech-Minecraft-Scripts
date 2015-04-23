@@ -1,3 +1,3 @@
-exports.spawnSH = function( player ) {
-    box('5').up(3).left(4).box('1').turn(3).fwd(5).right().box('1').move('start');
+exports.spawnSH = function (player) {
+    box('4', 9, 9, 9).move('start').up(9).prism('5', 9, 5).move('start');
 }
